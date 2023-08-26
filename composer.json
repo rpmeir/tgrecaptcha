@@ -1,0 +1,17 @@
+{
+    "name": "rpmeir/tgrecaptcha",
+    "description": "Google Recaptcha component for Adianti Studio Framework",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rpmeir\\Tgrecaptcha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Pires Meira"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
