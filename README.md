@@ -1,2 +1,2 @@
 # tgrecaptcha
-Component Google recaptcha for Adianti Studio
+Google recaptcha component for Adianti Studio
