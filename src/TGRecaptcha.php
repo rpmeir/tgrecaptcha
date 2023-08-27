@@ -1,5 +1,10 @@
 <?php
 
+namespace Rpmeir\TGRecaptcha;
+
+use Adianti\Widget\Form\TField;
+use Adianti\Widget\Form\AdiantiWidgetInterface;
+
 class TGRecaptcha extends TField implements AdiantiWidgetInterface
 {
     protected $name;
