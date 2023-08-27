@@ -29,7 +29,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->id = $id;
     }
 
-    public function getId($id)
+    public function getId()
     {
         return $this->id;
     }
@@ -39,7 +39,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->name = $name;
     }
 
-    public function getName($name)
+    public function getName()
     {
         return $this->name;
     }
@@ -49,7 +49,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->required = $required;
     }
 
-    public function getRequired($required)
+    public function getRequired()
     {
         return $this->required;
     }
@@ -59,7 +59,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->labelRequired = $labelRequired;
     }
 
-    public function getLabelRequired($labelRequired)
+    public function getLabelRequired()
     {
         return $this->labelRequired;
     }
@@ -69,7 +69,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->validator = $validator;
     }
 
-    public function getValidator($validator)
+    public function getValidator()
     {
         return $this->validator;
     }
@@ -79,7 +79,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->validatorLabel = $validatorLabel;
     }
 
-    public function getValidatorLabel($validatorLabel)
+    public function getValidatorLabel()
     {
         return $this->validatorLabel;
     }
@@ -89,7 +89,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->width = $width;
     }
 
-    public function getWidth($width)
+    public function getWidth()
     {
         return $this->width;
     }
@@ -99,7 +99,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         $this->height = $height;
     }
 
-    public function getHeight($height)
+    public function getHeight()
     {
         return $this->height;
     }
