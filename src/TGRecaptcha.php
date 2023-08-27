@@ -112,6 +112,11 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
         ];
     }
 
+    public function setTagName($name)
+    {
+        $this->tag->setName($name);
+    }
+
     public function getPostData()
     {
         return $_REQUEST['g-recaptcha-response'] ?? null;
