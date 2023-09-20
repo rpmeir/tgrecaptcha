@@ -129,7 +129,7 @@ class TGRecaptcha extends TField implements AdiantiWidgetInterface
 
         $recaptcha_config = require_once('app/config/recaptcha.php');
 
-        $this->tag->style = 'padding-left:50px; margin-bottom: -25px;';
+        $this->tag->style = 'margin-bottom: -25px;';
         $this->tag->add("
             <script src='https://www.google.com/recaptcha/api.js' async defer ></script>
             <div class='g-recaptcha' data-sitekey='{$recaptcha_config['chave_site']}' ></div>
